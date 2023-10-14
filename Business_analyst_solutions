@@ -1,0 +1,51 @@
+Assignment: - 
+1. A developer is assigned a task to scrape 1 lakh website pages from a directory site, while scrapping he is facing such hcaptcha, which are placed to stop people from scrapping As a project Coordinator suggest ways to solve this problem.
+Solution - 
+•	Use Captcha Solving Services: Utilize third-party captcha solving services.
+•	Implement Delay and Retry Mechanisms: Pause scraping for a duration when hCaptcha challenges appear.
+•	Rotate IP Addresses and User Agents: Change IP addresses and user agents to avoid detection.
+•	Headless Browsing and Automation Tools: Use tools like Selenium to automate browser interactions.
+•	Decipher hCaptcha Challenges: Analyze and solve challenges manually or through scripts.
+•	AI and Machine Learning Solutions: Train models to recognize and solve hCaptcha challenges.
+•	Request Data through APIs: Check if the website provides an API for accessing data.
+•	Legal and Ethical Considerations: Ensure compliance with laws and website terms.
+•	Break Down the Task: Scrape data in smaller, manageable chunks.
+•	Seek Permission or Cooperation: Contact the website owner for collaboration.
+
+ 2. Our client has around 10k LinkedIn people profiles, he wants to know the estimated income range of these profiles. Suggest ways on how to do this?
+Solution – 
+•	Use LinkedIn Profile Data: Analyse job titles, companies, and industries on profiles.
+•	Utilize LinkedIn Premium Features: Use LinkedIn Premium for salary range data.
+•	Infer from Job Titles and Seniority: Create a mapping of job titles to income ranges.
+•	Use Third-Party Salary Data Sources: Refer to platforms like Glassdoor or PayScale.
+•	Survey or Questionnaires: Collect salary information directly, if possible.
+•	Use Machine Learning Models: Train models using features to predict income ranges.
+•	Combine Multiple Data Sources: Create a weighted model based on various data.
+•	Consult a Data Scientist: Seek professional assistance for accurate models.
+•	Privacy and Ethical Considerations: Respect privacy and obtain consent.
+
+ 3. We have a list of 1L company names, need to find linkedin company links of these profiles, how to go about this?
+Solution – 
+•	LinkedIn's Official API: Apply for access to LinkedIn's API for searching company profiles.
+•	Data Enrichment Services: Utilize data enrichment services that offer LinkedIn data.
+•	Web Scraping: Use web scraping as a last resort with caution, respecting LinkedIn's terms.
+•	Manual Search: Manually search LinkedIn for smaller lists.
+•	LinkedIn Sales Navigator: Use advanced search features if available.
+•	Third-Party LinkedIn Data Providers: Purchase data from third-party providers.
+
+ 4. How to identify list of companies whose tech stack is built on Python. Give names of 5 companies if possible, by your suggested approach
+Solution – 
+•	LinkedIn Company Pages: Check LinkedIn company pages for mentions of Python.
+•	GitHub Repositories: Search for company repositories on GitHub and analyze languages used.
+•	Job Postings: Look for job postings that mention Python as a requirement.
+•	Tech News and Articles: Watch for articles that profile companies and their tech stacks.
+•	Developer Surveys: Review developer surveys for insights into technology usage.
+
+5. Need to find an API, through which we can send linkedin messages to other linkedin users
+Solution – Steps 
+•	To programmatically send LinkedIn messages, utilize the LinkedIn Messaging AP.
+•	Create a LinkedIn Developer Account and register your application.
+•	Enable the "Messaging" permission for your application.
+•	Obtain an access token using OAuth 2.0 for API authentication.
+•	Send messages to connections using the POST https://api.linkedin.com/v2/messages endpoint.
+•	Manage your inbox by retrieving, marking as read, and deleting messages.
